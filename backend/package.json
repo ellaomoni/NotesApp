@@ -1,0 +1,32 @@
+{
+  "name": "Notes App",
+  "version": "1.0.0",
+  "description": "Notes app backend - AWS Lambda + DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "if exist dist rmdir /s /q dist",
+    "prebuild": "npm run clean"
+  },
+  "keywords": [],
+  "author": "Ella Omoni",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1065.0",
+    "@aws-sdk/lib-dynamodb": "^3.1065.0",
+    "and": "^0.0.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.162",
+    "@types/node": "^25.9.2",
+    "@types/uuid": "^8.3.4",
+    "aws-lambda": "^1.0.7",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}

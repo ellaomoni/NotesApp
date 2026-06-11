@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Backend deployment artifacts
+lambda-deployment.zip
+
+# Local tooling binaries
+cloudflared.exe.exe
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
