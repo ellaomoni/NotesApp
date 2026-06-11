@@ -5,7 +5,7 @@ import {
     DeleteCommand 
   } from "@aws-sdk/lib-dynamodb";
   import { v4 as uuidv4 } from "uuid";
-  import { docClient, TABLE_NAME } from "../utils/dynamodb-client";
+  import { docClient, TABLE_NAME } from "../utils/dynamodbClient";
   import { Note, CreateNoteInput, UpdateNoteInput } from "../models/Note";
   
 
