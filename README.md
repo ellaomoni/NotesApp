@@ -178,5 +178,5 @@ The deployed resources behind the [Tech Stack](#tech-stack) above:
 - **DynamoDB:** `Notes` table, on-demand capacity, partition key `userId` + sort key `noteId`.
 - **IAM Role:** `notes-app-lambda-role` with least-privilege DynamoDB access (no static credentials in the deployment package).
 
-//Technical Document
+##Technical Document
 [Teachical Document and Reasoning](https://docs.google.com/document/d/1WQlSQ9l5bRKQpITZ_tZIUXk8ezb4glbaYbDlaNQVLa0/edit?usp=sharing)
